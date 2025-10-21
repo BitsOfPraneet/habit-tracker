@@ -109,11 +109,3 @@ The application follows the **Model-View-Controller (MVC)** architectural patter
 * **User-Defined Habit Types:** Support different types of habits (e.g., quantifiable "drink X glasses of water" vs. binary "read book").
 * **Gamification:** Add elements like badges, points, or leaderboards to incentivize consistency.
 * **Notification Reminders:** Integrate desktop notifications to proactively remind users about their habits.
-
-## Contributing
-
-(If this were an open-source project, you'd include guidelines here. For a class project, you might omit or mention for future reference.)
-
-## License
-
-(Specify your project's license, e.g., MIT, Apache 2.0, or "Proprietary for Academic Use".)
