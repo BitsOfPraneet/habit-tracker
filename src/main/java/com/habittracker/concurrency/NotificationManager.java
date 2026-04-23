@@ -1,5 +1,4 @@
 package com.habittracker.concurrency;
-
 import com.habittracker.database.DatabaseManager;
 import com.habittracker.model.Habit;
 
@@ -8,7 +7,6 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.concurrent.*;
-
 /**
  * Checks every minute whether any reminder time matches the current HH:mm
  * for any habit owned by the given user, then shows a system-tray or
@@ -46,7 +44,6 @@ public class NotificationManager {
             trayIcon = null;
         }
     }
-
     /** Starts the background 1-minute polling thread. */
     public void start() {
         if (scheduler != null && !scheduler.isShutdown()) return;
